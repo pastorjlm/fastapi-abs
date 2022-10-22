@@ -5,3 +5,4 @@ pymysql
 uvicorn
 PyJWT
 python-decouple
+gunicorn
