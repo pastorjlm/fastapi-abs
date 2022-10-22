@@ -1,0 +1,7 @@
+loguru
+fastapi
+sqlalchemy
+pymysql
+uvicorn
+PyJWT
+python-decouple
