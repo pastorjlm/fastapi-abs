@@ -13,6 +13,7 @@ class UsersCreate(UsersBase):
       address:str
       zipCode:int
       city:str
+      
 
 
 class User(UsersBase):
@@ -28,3 +29,15 @@ class UsersLoginSchema(BaseModel):
  
     class Config:
         orm_mode = True
+
+
+
+
+class UserPaypalSchema(BaseModel):
+    user_id: int
+    orderId:str
+    
+    
+    class Config:
+        orm_mode = True
+
